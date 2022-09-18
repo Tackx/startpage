@@ -61,4 +61,8 @@
     width: 2em;
     height: 100%;
   }
+  #searchButton:hover,
+  #searchButton:active {
+    color: rgb(138, 141, 145);
+  }
 </style>
