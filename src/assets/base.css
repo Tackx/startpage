@@ -1,0 +1,25 @@
+:root {
+    --color-frame-background: rgba(105, 103, 103, 0.384);
+    --color-button: #2f2f2f;
+    --color-button-hover: #101010;
+    /* --color-text: #2f2f2f; */
+    --color-text: #ffffff;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  

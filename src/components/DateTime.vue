@@ -1,8 +1,8 @@
 <template>
   <div class="datetime">
-    <span>{{ weekday }}</span>
-    <span>{{ date }}</span>
-    <span>{{ time }}</span>
+    <span id="weekday">{{ weekday }},</span>
+    <span id="date">{{ date }}</span>
+    <span id="time">{{ time }}</span>
   </div>
 </template>
 
@@ -43,11 +43,29 @@
 </script>
 
 <style scoped>
-  video {
-    position: fixed;
+  .datetime {
+    /* position: flex;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 100%;
+    min-height: 100%; */
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    background-color: var(--color-frame-background);
+    border-radius: 5%;
+    padding: 20px;
+  }
+  #weekday {
+    font-size: 3em;
+  }
+  #date {
+    font-size: 2.5em;
+  }
+  #time {
+    font-size: 5em;
   }
 </style>
