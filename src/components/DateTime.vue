@@ -47,8 +47,8 @@
     /* position: flex;
     top: 0;
     left: 0;
-    width: 100%;
     min-height: 100%; */
+    width: 100%;
     color: var(--color-text);
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
     align-items: center;
     gap: 1.5em;
     background-color: var(--color-frame-background);
-    border-radius: 5%;
+    border-radius: 20px;
     padding: 20px;
   }
   #weekday {
